@@ -1,0 +1,153 @@
+* {
+    background-color: black;
+}
+
+
+#logo {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 7.5vw;
+}
+
+#logo:hover {
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+@font-face {
+    font-family: backstranger-font;
+    src: url("fonts/jumbalo/Jumbalo_D.otf");
+  }
+
+#landing-page-text {
+    font-family: backstranger-font;
+    text-align: center;
+    margin: 10vw;
+    color: white;
+    font-size: 5vw;
+    font-weight: 40;
+}
+
+#contact-text {
+    font-family: backstranger-font;
+    text-align: center;
+    margin-top: 5vw;
+    color: white;
+    font-size: 2.5vw;
+    font-weight: 40;
+}
+
+#contact-information {
+    color: white;
+    text-align: center;
+    font-family: monospace;
+    font-weight: 10;
+}
+
+hr {
+    background-color: white;
+    border: 0.25em solid white;
+    border-radius: 1em;
+}
+
+#music-button-container {
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    line-height: 0;
+}
+
+i {
+    padding: 4px;
+}
+
+
+#music-buttons {
+    width: fit-content;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 1;
+}
+
+
+#social-buttons {
+    position: absolute;
+    bottom: 2.5vw;
+    right: 2.5vw;
+    display: block;
+    color: #ffffff;
+    text-align: right;
+}
+
+.tablink {
+    position: absolute;
+    bottom: 2.5vw;
+    left: 2.5vw;
+    display: block;
+    font-size: large;
+    text-decoration: none;
+    border: none;
+    font-family: backstranger-font;
+}
+
+button {
+    opacity: 1;
+}
+
+button:hover {
+    opacity:0.75;
+    cursor: pointer;
+}
+
+
+a {
+    color:white;
+    text-decoration: none;
+    opacity: 1;
+    
+}
+
+a:visited {
+
+    text-decoration: none;
+    color:white;
+}
+
+li {
+
+    display: inline-block;
+    
+}
+
+#music-buttons:hover a {
+    text-decoration: none; 
+    opacity: .5;
+    
+}
+
+#music-buttons li a:hover {
+    opacity: 1;
+}
+
+#social-buttons:hover a {
+    text-decoration: none; 
+    opacity: .5;
+}
+
+#social-buttons li a:hover {
+    opacity: 1;
+}
+
+a:focus {text-decoration: none;}
+a:active {text-decoration: none;}
+
+.tablink {
+    color: white;
+    text-align: left;
+}
